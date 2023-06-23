@@ -1,47 +1,46 @@
 ---
-sidebar_position: 1
+id: intro
+sidebar_label: Introduction
+title: About Chialisp
+slug: /
 ---
 
-# Tutorial Intro
+Chialisp is a pure and functional language with a focus on security and auditability. Chialisp is commonly used on the Chia blockchain to lock funds in smart coins until spent and released by their owner. This enables behavior similar to that of smart contracts.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Here is an example:
+
+```chialisp
+(mod ()
+    (defun square (number)
+        (* number number)
+    )
+
+    (square 5) ; 25
+)
+```
+
+## Design Decisions
+
+There are many reasons to choose [Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>) as the basis for this language, even though it is over 60 years old.
+
+#### CLVM
+
+Chialisp compiles to a lower level form, which is CLVM (Chialisp Virtual Machine) bytecode. This allows the language to change over time while still being executed in the same way.
+
+#### Sandboxed
+
+CLVM is completely sandboxed, in order to prevent it from gaining access to its host machine. This is important, since on the Chia blockchain, it needs to be run on hundreds of thousands of computers.
+
+Programs are evaluated, and therefore cannot spawn any new processes or interact with the system.
+
+#### Auditable
+
+Code written in Chialisp has no side effects or hidden information. This makes it easier to find security flaws and bugs. This is essential for smart coins made for the Chia blockchain.
+
+#### Composable
+
+A program in Lisp is just a list. This enables powerful techniques that allow you to modify source code during program evaluation. You can even have multiple layers of a program that get executed at different stages.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you'd like to get started learning and using Chialisp, you can start with the [Intro to Chialisp](https://devs.chia.net/guides) guide. Throughout this series, you will write programs in the language, create smart coins on the Chia blockchain, and spend them on the command-line.

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknecakco=self.webpackChunknecakco||[]).push([[7119],{1455:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/necakco/blog/tags/hola","allTagsPath":"/necakco/blog/tags","count":1}')}}]);
