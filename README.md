@@ -1,48 +1,47 @@
-# Website
+<h2 align="center">Youtube Channal  -  <a href="https://www.youtube.com/channel/UC51P2yIrqRGdun9MtvXNXaA">@necakco</a></h2>
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+<!-- <p align="center">
+    <img alt="" src=https://img.shields.io/github/stars/xtekky?style=for-the-badge&?affiliations=OWNER%2CCOLLABORATOR />
+    <img alt="" src=https://komarev.com/ghpvc/?username=xtekky&style=for-the-badge />
+</p> -->
 
-### Installation
+<p href="https://discord.gg/onlp" align="center">
+    <img alt="" src=https://lanyard.cnrad.dev/api/840541540203626516/>
+</p>
 
-```
-$ npm install --local yarn
-$ ./node_modules/yarn/bin/yarn
-```
+```python
+class Attributes(Necakco):
+	@staticmethod
+	def contact() -> tuple:
+	    discord  = "Necakco#5476"
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Docker Local Development
-
-```
-$ docker-compose up
-```
-
-You can also install and start local development server using Docker.
-
-### Local Development notes
-
-`yarn` & `docusaurus` interpret text within angle-brackets, so be careful when using them, if you are editing the .md files directly.
-
-If you are logged in to your github account, you can edit a page right on chialisp.com, by clicking on the "Edit this page" link at the bottom of the article. That will allow you to edit the page, and submit a pull request against the underlying markdown file.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
+	
+	    return discord
+	
+	@staticmethod
+	def life() -> tuple:
+		langs         = ['vi', 'en']
+		age           = 13
+		
+		return langs, age
+	
+	@staticmethod
+	def coding() -> tuple:
+		langs = {
+			'expert':   ['python'],
+			'intermediate': ['pascal', 'js'],
+			'learning': ['c', 'c++', 'c#', 'php', 'java']
+		}
+		specialities  = ['web/app reverse engineering', 'fullstack']
+		environnement = ['vscode']
+		
+		return langs, specialities, environnement
 
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+<h2 align="center">Skills </h2>
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,vscode,c,cpp,js,css,html,vue,react" />
+  </a>
+</p>
