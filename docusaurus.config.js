@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Chialisp',
   tagline: 'Developing with Chialisp',
-  url: 'https://chialisp.com',
-  baseUrl: '/',
+  url: 'https://necakco.github.io/',
+  baseUrl: 'necakco/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
