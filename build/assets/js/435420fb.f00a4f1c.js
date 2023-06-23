@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknecakco=self.webpackChunknecakco||[]).push([[8954],{1813:e=>{e.exports=JSON.parse('{"permalink":"/necakco/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
