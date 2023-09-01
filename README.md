@@ -42,6 +42,6 @@ class Attributes(Necakco):
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,vscode,c,cpp,js,css,html,vue,react" />
+    <img src="https://skillicons.dev/icons?i=python,vscode,c,cpp,js,css,html,vue,react,bash,cs,cpp,django,github,java,ps" />
   </a>
 </p>
